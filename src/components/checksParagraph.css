@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  background-color: green;
+  font-size: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+    color: white;
+}
+
+textarea {
+  border: 1.5px black solid;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.result {
+    text-align: left;
+  margin-top: 20px;
+}
+
+.result h2 {
+  text-align: center;
+    font-size: 30px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background: white;
+
+}
+.result .resultson {
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+
+}
+
+
+.highlight {
+  color: rgb(86, 8, 8);
+  background-color: rgb(188, 106, 106);
+  font-weight: bold;
+}
+
+.displayText {
+  display: flex;
+  gap: 40px;}
+
+
+ .check-difference{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+ }
+
+
+.highlightGreen{
+  color: green;
+  background-color: rgb(101, 171, 102);
+  font-weight: bold;
+
+}
