@@ -1,0 +1,50 @@
+.displayText{
+    display: flex;
+    gap: 20px;
+}
+
+.displayText textarea{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.diff-original {
+    /* background-color: #f8d7da; */
+    color: #dc2635;
+    background-color: #e7cfd1;
+    border-radius: 5px;
+}
+
+.diff-changed {
+    /* background-color: #d4edda; */
+    color: #18e047;
+    background-color: #d0dfd3;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 20px;
+
+}
+
+.diff-equal {
+    background-color: #ffffff;
+}
+
+.diff-result{
+    background-color: white;
+}
+
+.diff-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.diff-block .diff-result {
+    border-radius: 10px;
+    padding: 10px 20px 10px;
+    background-color: white;
+    height: 30px ;
+}

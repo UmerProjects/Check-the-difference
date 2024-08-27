@@ -1,11 +1,11 @@
 import './App.css'
-import DiffChecker from './component2/diffOfchecker'
+import DiffChecker2 from './component 2/checkdifference'
 
 function App() {
 
   return (
     <>
-    <DiffChecker/>
+    <DiffChecker2/>
     </>
   )
 }
